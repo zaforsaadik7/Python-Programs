@@ -1,0 +1,3 @@
+string='physics, chemistry, math, biology'
+list=string.split(', ')
+print(list)
