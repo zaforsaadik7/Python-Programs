@@ -1,0 +1,3 @@
+sub={'physics', 'art', 'chemistry', 'math'}
+sub.remove('math')
+print(sub)
