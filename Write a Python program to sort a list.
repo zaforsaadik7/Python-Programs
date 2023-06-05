@@ -1,0 +1,15 @@
+course=['physics', 'chemistry', 'math', 'biology']
+nums=[1,5,2,4,3]
+course.sort()
+nums.sort()
+print(course)
+print(nums)
+course.sort(reverse=True)
+nums.sort(reverse=True)
+print(course)
+print(nums)
+original_course=sorted(course)
+original_nums=sorted(nums)
+print(original_course)
+print(original_nums)
+#The sorted statement is not properly being used here
