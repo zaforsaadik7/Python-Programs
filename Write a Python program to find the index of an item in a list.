@@ -1,0 +1,3 @@
+course=['physics', 'chemistry', 'math', 'biology']
+print(course.index('math'))
+#index method works just with one argument
