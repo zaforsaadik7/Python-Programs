@@ -1,0 +1,6 @@
+course=['physics', 'chemistry', 'math', 'biology']
+nums=[1,5,2,4,3]
+course.reverse()
+nums.reverse()
+print(course)
+print(nums)
