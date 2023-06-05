@@ -1,0 +1,25 @@
+course=['physics', 'chemistry', 'math', 'biology']
+#Remove Method
+print(course)
+course.remove('math')
+print(course)
+course.remove('physics')
+print(course)
+course.remove('chemistry')
+print(course)
+course.remove('biology')
+print(course)
+course=['physics', 'chemistry', 'math', 'biology']
+#Pop Method
+print(course)
+x=course.pop(0)
+print(course)
+print(x)
+x=course.pop(0)
+print(course)
+print(x)
+x=course.pop(0)
+print(course)
+x=course.pop(0)
+print(course)
+print(x)
