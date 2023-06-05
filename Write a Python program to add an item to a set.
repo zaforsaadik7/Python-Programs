@@ -1,0 +1,7 @@
+set={'physics','math','chemistry'}
+set.add('art')
+print(set)
+
+
+#Sets use a hash-based data structure internally, which allows for fast membership tests and eliminates duplicate values.
+#However, this hash-based structure doesn't preserve the order in which the elements were added. As a result, when you create a set or modify it, the order of elements may change.
