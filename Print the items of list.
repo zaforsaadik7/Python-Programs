@@ -1,0 +1,6 @@
+course=['physics', 'chemistry', 'math', 'biology']
+print(course)
+print(course[0])
+print(course[:2])
+print(course[1:3]) #it will not access the index 3
+print(course[2:])
