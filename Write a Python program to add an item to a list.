@@ -1,0 +1,24 @@
+course=['physics', 'chemistry', 'math', 'biology']
+course_2=['Economics', 'EEE']
+#Append Method
+print('This is called append method')
+course.append("bangla")
+print(course)
+course.append(course_2)
+print(course)
+del course [5]
+print(course)
+
+#Insert Method
+print('This is called insert method')
+course.insert(4,'english')
+print(course)
+course.insert(5,course_2)
+print(course)
+del course[5]
+print(course)
+
+#Extend Method
+print('This is called extend method')
+course.extend(course_2)
+print(course)
