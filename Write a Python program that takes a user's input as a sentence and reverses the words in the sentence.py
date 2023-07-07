@@ -1,0 +1,5 @@
+sentence= input('Write a sentense to reverse the words:')
+words_list= sentence.strip().split()
+words_list.reverse()
+reversed_sentense= (' ').join(words_list)
+print(reversed_sentense)
